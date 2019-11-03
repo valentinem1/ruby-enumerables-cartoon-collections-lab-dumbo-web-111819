@@ -21,7 +21,7 @@ def find_the_cheese(contains_cheddar)
   cheese_types = ["cheddar", "gouda", "camembert"]
   i = 0
   if cheese_types.map{|word| word == contains_cheddar}
- contains_cheddar.include?(cheese_types){|word| word}
+ contains_cheddar.include?(cheese_types){|word| puts word}
  else
    return nil
  end
