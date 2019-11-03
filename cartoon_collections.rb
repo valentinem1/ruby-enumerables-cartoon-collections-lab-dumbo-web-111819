@@ -19,10 +19,7 @@ end
 def find_the_cheese(contains_cheddar)
   # the array below is here to help
   cheese_types = ["cheddar", "gouda", "camembert"]
-  i = 0
-  if cheese_types.map{|word| word == contains_cheddar}
- contains_cheddar.include?(cheese_types){|word| puts word}
- else
-   return nil
- end
+ 
+ contains_cheddar.include?(cheese_types)
+ 
 end
